@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100vh;
+}
+
+img {
+    height: 28vh;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: rgb(233, 233, 233);
+    background-color: #463a63;
+    overflow: hidden;
+}
+
+.diagonal-box {
+    background-image: linear-gradient(45deg, #5d5d81, #3b3355);
+    transform: skewY(-11deg);
+}
+.content {
+    max-width: 50em;
+    margin: 2vh auto 5vh auto;
+    padding: 5vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    transform: skewY(11deg);
+}
+
+h2,
+h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+select {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: none;
+}
+
+input,
+select:focus {
+    outline: none;
+}
+
+button {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(10, 192, 56);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+.currency {
+    color: white;
+    padding: 1.5rem;
+    background-color: transparent;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+h4 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 720px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    html {
+        font-size: 10px;
+    }
+}
